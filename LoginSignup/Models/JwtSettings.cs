@@ -12,5 +12,6 @@ namespace LoginSignup.Models
 
         [Required]
         public string? Audience { get; set; }
+        public string? Key { get; set; }
     }
 }
